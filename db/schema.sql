@@ -95,3 +95,17 @@ CREATE TABLE IF NOT EXISTS scores (
   bullpen_score NUMERIC,
   total_score NUMERIC
 );
+
+CREATE TABLE scores (
+    as_of DATE,
+    player_id INT,
+    total_score FLOAT,
+    season_score FLOAT,
+    recent_score FLOAT,
+    matchup_score FLOAT,
+    statcast_score FLOAT,
+    park_score FLOAT,
+    weather_score FLOAT,
+    bullpen_score FLOAT,
+    PRIMARY KEY (as_of, player_id)
+);
