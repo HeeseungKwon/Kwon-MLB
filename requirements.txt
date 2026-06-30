@@ -1,0 +1,12 @@
+# Python dependencies for the MLB HR/HRR Analyzer
+pybaseball
+pandas
+sqlalchemy
+psycopg2-binary
+python-dotenv
+requests
+streamlit
+xgboost
+scikit-learn
+numpy
+pytest
